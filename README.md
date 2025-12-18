@@ -24,7 +24,6 @@ MedReminder adalah aplikasi manajemen kesehatan pribadi yang berfokus pada kedis
 5. **Kontrol Notifikasi**: Fitur untuk mengaktifkan/menonaktifkan alarm secara global.
 
 ##  UML (Unified Modeling Language)
-*(Saran: Tambahkan gambar diagram Anda di folder `docs/uml/` lalu link-kan di sini)*
 
 * **Use Case Diagram**: Menggambarkan interaksi aktor (Pengguna) dengan fitur utama seperti Register, Login, Tambah Obat, dan Terima Notifikasi.
 * **Activity Diagram**: Menjelaskan alur kerja dari saat pengguna membuka aplikasi hingga berhasil menambahkan jadwal obat.
