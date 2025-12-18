@@ -1,6 +1,6 @@
 ![Tampilan Website](review.png)
 
-✨ Fitur Utama
+## Fitur Utama
 
 1. **Manajemen Obat Fleksibel**: Tambahkan daftar obat sesukamu tanpa batasan jumlah.
 2. **Notifikasi Suara Otomatis**: Sistem akan memicu suara alarm saat waktu minum obat tiba untuk memastikan kamu tidak lupa.
@@ -10,7 +10,7 @@
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 * **Frontend**: HTML5, CSS3 (Custom Gradients & Modern UI), JavaScript.
 * **Backend**: PHP Native.
@@ -18,7 +18,7 @@
 
 ---
 
-## 🚀 Cara Instalasi (Untuk Dosen/Pengguna)
+##  Cara Instalasi (Untuk Dosen/Pengguna)
 
 1. **Download Source Code**: Klik tombol **Code** > **Download ZIP** pada repository ini.
 2. **Ekstrak Folder**: Ekstrak folder ke dalam direktori `C:\xampp\htdocs\medreminder`.
@@ -33,6 +33,6 @@
 
 ---
 
-## 👤 Developer
-* **Nama**: [Rahadian Ronggo]
+##  Developer
+* **Nama**: Rahadian Ronggo
 * **Tugas**: Project Website Management - RKS A
