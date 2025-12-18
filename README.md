@@ -26,11 +26,11 @@ MedReminder adalah aplikasi manajemen kesehatan pribadi yang berfokus pada kedis
 ##  UML (Unified Modeling Language)
 
 * **Use Case Diagram**: Menggambarkan interaksi aktor (Pengguna) dengan fitur utama seperti Register, Login, Tambah Obat, dan Terima Notifikasi.
-  ![Tampilan Website](use case.png)
+  ![Tampilan use case](use case.png)
 * **Activity Diagram**: Menjelaskan alur kerja dari saat pengguna membuka aplikasi hingga berhasil menambahkan jadwal obat.
-  ![Tampilan Website](activity.png)
+  ![Tampilan activity](activity.png)
 * **Sequence Diagram**: Menunjukkan interaksi antar objek (UI, Controller, Database) dalam proses validasi login dan penyimpanan data obat.
-  ![Tampilan Website](sequence.png)
+  ![Tampilan sequence](sequence.png)
 
 ##  Cara Instalasi (SDLC - Deployment)
 
