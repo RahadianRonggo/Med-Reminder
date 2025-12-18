@@ -1,38 +1,51 @@
 ![Tampilan Website](review.png)
 
-## Fitur Utama
+#  MedReminder - Dokumentasi Project (Progress Report)
 
-1. **Manajemen Obat Fleksibel**: Tambahkan daftar obat sesukamu tanpa batasan jumlah.
-2. **Notifikasi Suara Otomatis**: Sistem akan memicu suara alarm saat waktu minum obat tiba untuk memastikan kamu tidak lupa.
-3. **Dashboard Real-time**: Pantau jumlah obat hari ini, total obat, dan status yang sudah diminum dalam satu layar.
-4. **Sistem Notifikasi Aktif**: Fitur *toggle* untuk mengaktifkan atau menonaktifkan pengingat dengan satu klik.
-5. **Keamanan Akun**: Dilengkapi dengan fitur Registrasi dan Login untuk menjaga privasi data kesehatan Anda.
+Aplikasi **MedReminder** adalah solusi digital berbasis web untuk membantu pengguna mengelola jadwal konsumsi obat secara tepat waktu. Dokumentasi ini disusun untuk memenuhi standar laporan progres pengembangan perangkat lunak.
 
 ---
 
-## Teknologi yang Digunakan
+##  Deskripsi Proyek
+MedReminder adalah aplikasi manajemen kesehatan pribadi yang berfokus pada kedisiplinan minum obat. Aplikasi ini memungkinkan pengguna untuk mencatat daftar obat, mengatur waktu konsumsi, dan mendapatkan pengingat otomatis melalui sistem notifikasi suara.
 
-* **Frontend**: HTML5, CSS3 (Custom Gradients & Modern UI), JavaScript.
-* **Backend**: PHP Native.
-* **Database**: MySQL.
+##  User Story
+* **Sebagai Pengguna**, saya ingin mendaftarkan akun agar data jadwal obat saya tersimpan secara pribadi.
+* **Sebagai Pengguna**, saya ingin menambahkan jadwal obat baru agar saya memiliki daftar pengingat yang terorganisir.
+* **Sebagai Pengguna**, saya ingin mendapatkan notifikasi suara agar saya tidak melewatkan waktu minum obat meskipun tidak melihat layar.
+* **Sebagai Pengguna**, saya ingin melihat dashboard harian untuk mengetahui obat apa saja yang sudah dan belum diminum.
+
+##  SRS (Software Requirements Specification)
+### Feature List
+1. **Sistem Autentikasi**: Registrasi akun dan Login pengguna.
+2. **Dashboard Interaktif**: Ringkasan total obat, jadwal hari ini, dan status penyelesaian.
+3. **Manajemen Obat (CRUD)**: Tambah, Lihat, Edit, dan Hapus jadwal obat secara bebas.
+4. **Notifikasi Suara Otomatis**: Trigger suara alarm sesuai waktu yang diinputkan.
+5. **Kontrol Notifikasi**: Fitur untuk mengaktifkan/menonaktifkan alarm secara global.
+
+##  UML (Unified Modeling Language)
+*(Saran: Tambahkan gambar diagram Anda di folder `docs/uml/` lalu link-kan di sini)*
+
+* **Use Case Diagram**: Menggambarkan interaksi aktor (Pengguna) dengan fitur utama seperti Register, Login, Tambah Obat, dan Terima Notifikasi.
+* **Activity Diagram**: Menjelaskan alur kerja dari saat pengguna membuka aplikasi hingga berhasil menambahkan jadwal obat.
+* **Sequence Diagram**: Menunjukkan interaksi antar objek (UI, Controller, Database) dalam proses validasi login dan penyimpanan data obat.
+
+##  Cara Instalasi (SDLC - Deployment)
+
+1. **Persiapan**: Pastikan XAMPP (Apache & MySQL) sudah terpasang.
+2. **Clone/Download**: Download source code ini dan letakkan di `C:\xampp\htdocs\medreminder`.
+3. **Database**: 
+   - Buat database `db_medreminder` di `localhost/phpmyadmin`.
+   - Import file `db_medreminder.sql`.
+4. **Konfigurasi**: Sesuaikan file `koneksi.php` dengan kredensial database lokal Anda.
+5. **Running**: Buka browser dan akses `localhost/medreminder`.
 
 ---
 
-##  Cara Instalasi (Untuk Dosen/Pengguna)
+##  Teknologi & SDLC
+* **Metode Pengembangan**: Waterfall / Agile (Sesuaikan dengan yang kamu gunakan).
+* **Stack**: PHP Native, MySQL, HTML5, CSS3 Modern UI, JavaScript.
 
-1. **Download Source Code**: Klik tombol **Code** > **Download ZIP** pada repository ini.
-2. **Ekstrak Folder**: Ekstrak folder ke dalam direktori `C:\xampp\htdocs\medreminder`.
-3. **Nyalakan XAMPP**: Pastikan modul **Apache** dan **MySQL** sudah dalam status *Start*.
-4. **Persiapan Database**:
-   * Buka browser dan akses `localhost/phpmyadmin`.
-   * Buat database baru dengan nama: `db_medreminder`.
-5. **Import Database**:
-   * Klik menu **Import**, lalu pilih file `db_medreminder.sql` yang ada di dalam folder proyek ini.
-   * Klik **Go**.
-6. **Jalankan Aplikasi**: Akses di browser melalui URL: `localhost/medreminder`.
-
----
-
-##  Developer
-* **Nama**: Rahadian Ronggo
-* **Tugas**: Project Website Management - RKS A
+  ##  Developer
+* **Nama**: Rahadian Ronggo Kusumo [mr.g9]
+* **Tugas**: Project Website Management - II RKS A
