@@ -1,41 +1,38 @@
 ![Tampilan Website](review.png)
-Fitur Utama
-Aplikasi MedReminder dirancang untuk membantu pengguna mengelola jadwal minum obat secara disiplin dengan fitur-fitur berikut:
 
-Manajemen Obat Fleksibel: Pengguna dapat menambahkan, mengedit, dan menghapus daftar obat sesuai kebutuhan (Custom Medication List).
+✨ Fitur Utama
 
-Sistem Login & Registrasi: Keamanan data pribadi pengguna dengan sistem akun yang terintegrasi database.
+1. **Manajemen Obat Fleksibel**: Tambahkan daftar obat sesukamu tanpa batasan jumlah.
+2. **Notifikasi Suara Otomatis**: Sistem akan memicu suara alarm saat waktu minum obat tiba untuk memastikan kamu tidak lupa.
+3. **Dashboard Real-time**: Pantau jumlah obat hari ini, total obat, dan status yang sudah diminum dalam satu layar.
+4. **Sistem Notifikasi Aktif**: Fitur *toggle* untuk mengaktifkan atau menonaktifkan pengingat dengan satu klik.
+5. **Keamanan Akun**: Dilengkapi dengan fitur Registrasi dan Login untuk menjaga privasi data kesehatan Anda.
 
-Dashboard Pemantauan: Pantau total obat yang harus diminum, progres harian, dan jumlah obat yang sudah dikonsumsi secara real-time.
+---
 
-Notifikasi Suara: Dilengkapi dengan alarm suara otomatis untuk mengingatkan pengguna tepat pada waktunya.
+## 🛠️ Teknologi yang Digunakan
 
-Status: Fitur untuk menandai status obat (misal: Wajib, Rutin, atau Lunas jika berkaitan dengan stok).
+* **Frontend**: HTML5, CSS3 (Custom Gradients & Modern UI), JavaScript.
+* **Backend**: PHP Native.
+* **Database**: MySQL.
 
+---
 
-Cara Instalasi (Untuk Pengguna/Penguji)
-Ikuti langkah-langkah di bawah ini untuk menjalankan aplikasi di lingkungan lokal (localhost):
+## 🚀 Cara Instalasi (Untuk Dosen/Pengguna)
 
-Download Source Code: Unduh file proyek ini (Klik tombol Code > Download ZIP) dan ekstrak foldernya.
+1. **Download Source Code**: Klik tombol **Code** > **Download ZIP** pada repository ini.
+2. **Ekstrak Folder**: Ekstrak folder ke dalam direktori `C:\xampp\htdocs\medreminder`.
+3. **Nyalakan XAMPP**: Pastikan modul **Apache** dan **MySQL** sudah dalam status *Start*.
+4. **Persiapan Database**:
+   * Buka browser dan akses `localhost/phpmyadmin`.
+   * Buat database baru dengan nama: `db_medreminder`.
+5. **Import Database**:
+   * Klik menu **Import**, lalu pilih file `db_medreminder.sql` yang ada di dalam folder proyek ini.
+   * Klik **Go**.
+6. **Jalankan Aplikasi**: Akses di browser melalui URL: `localhost/medreminder`.
 
-Pindahkan Folder: Letakkan folder hasil ekstrak ke dalam direktori server lokal Anda, contohnya di C:\xampp\htdocs\medreminder.
+---
 
-Aktifkan Server: Jalankan aplikasi XAMPP dan pastikan modul Apache serta MySQL dalam status Start.
-
-Persiapan Database:
-
-Buka browser dan akses localhost/phpmyadmin.
-
-Buat database baru dengan nama: db_medreminder.
-
-Import Data:
-
-Klik pada database db_medreminder yang baru dibuat.
-
-Pilih menu Import, lalu pilih file db_medreminder.sql yang tersedia di dalam folder proyek.
-
-Klik Go atau Import dan tunggu hingga proses selesai.
-
-Konfigurasi Koneksi: Pastikan pengaturan database pada file koneksi.php sudah sesuai dengan username dan password MySQL Anda.
-
-Jalankan Aplikasi: Buka browser dan akses URL: localhost/medreminder
+## 👤 Developer
+* **Nama**: [Rahadian Ronggo]
+* **Tugas**: Project Website Management - RKS A
