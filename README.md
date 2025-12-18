@@ -27,8 +27,10 @@ MedReminder adalah aplikasi manajemen kesehatan pribadi yang berfokus pada kedis
 
 * **Use Case Diagram**: Menggambarkan interaksi aktor (Pengguna) dengan fitur utama seperti Register, Login, Tambah Obat, dan Terima Notifikasi.
  <img src="usecase.png" alt="Use Case Diagram" width="600">
+ 
 * **Activity Diagram**: Menjelaskan alur kerja dari saat pengguna membuka aplikasi hingga berhasil menambahkan jadwal obat.
  <img src="activity.png" alt="Activity Diagram" width="600">
+ 
 * **Sequence Diagram**: Menunjukkan interaksi antar objek (UI, Controller, Database) dalam proses validasi login dan penyimpanan data obat.
  <img src="sequence.png" alt="Sequence Diagram" width="600">
 
