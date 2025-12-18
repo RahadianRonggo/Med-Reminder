@@ -43,9 +43,9 @@ MedReminder adalah aplikasi manajemen kesehatan pribadi yang berfokus pada kedis
 ---
 
 ##  Teknologi & SDLC
-* **Metode Pengembangan**: Waterfall / Agile (Sesuaikan dengan yang kamu gunakan).
+* **Metode Pengembangan**: Waterfall.
 * **Stack**: PHP Native, MySQL, HTML5, CSS3 Modern UI, JavaScript.
 
-  ##  Developer
+##  Developer
 * **Nama**: Rahadian Ronggo Kusumo [mr.g9]
 * **Tugas**: Project Website Management - II RKS A
