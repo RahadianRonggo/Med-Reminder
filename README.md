@@ -216,8 +216,8 @@ private val BASE_URL = "[http://10.0.2.2:8000/](http://10.0.2.2:8000/)"
 
 ## 👨‍💻 Author
 
-**[NAMA LENGKAP KOMANDAN]**
-*Taruna/Mahasiswa - Politeknik [NAMA KAMPUS]*
-*Program Studi [NAMA PRODI]*
+**[Rahadian Ronggo Kusumo]**
+*Taruna/Mahasiswa - Politeknik Siber dan Sandi Negara*
+*Program Studi Keamanan Siber*
 
 > *"Securing the Future, One Byte at a Time."* 🔐📱
